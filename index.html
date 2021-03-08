@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+    
+    <!-- Primeiro eu preciso  criar  um classe nav que dever ser do tipo nava expand.
+     criei um botão de navegação do tipo toggler  isso pode ser visto no site como fazer. 
+      As ul li e a tem as mesmas -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top  ">
+        <a href="" class="navbar-brand text-white">Chess <span class="text-danger"> Pro </span> &#9813;
+        </a>
+       
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+                <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="" class="nav-link">Coache</a>
+              
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-danger">Tutorials</a>
+              
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Lersson with a GM</a>
+              
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-danger">Pictures </a>
+              
+            </li>
+
+        </ul>
+    </div>
+    
+       
+    </nav>
+    <div class="container-fluid pt-1 ">
+        <div class="row">
+            <div class="col-12 bg-dark text-white border border-5 col-md-6">
+                <h1>
+                    Master class
+                </h1>
+                <blockquote class="blockquote-footer text-danger">By GM Kervem 07/03/2021</blockquote>
+               <div class="col-12"> <img src="./images.jpg" alt="" width="50%" height="150vh" class="float-end"> 
+            <p> 
+                My teaching style will be quite similar to my playing style. 
+                
+                It's dynamic, direct. 
+                
+                You may call it aggressive. 
+                
+                 doesn't survive on the chessboard, and there is no place in my teaching either. </p>
+                 <a href="">Continue lendo</a>
+        </div>
+               <div class="col-12 pt-4">
+                <h1 class="text-danger ">
+                   Check Mate la mission
+                </h1>
+                <blockquote class="blockquote-footer text-danger">By GM Elieldson 07/03/2021</blockquote>
+                <img src="./fa.jpg" alt="" width="50%" height="150vh" class="float-end pt-2" >
+                <p> 
+                    My teaching style will be quite similar to my playing style. 
+                    
+                    It's dynamic, direct. 
+                    
+                    You may call it aggressive. 
+                    
+                     doesn't survive on the chessboard, and there is no place in my teaching either. </p>
+                     <a href="">Continue lendo</a>
+               </div>
+            </div>
+            <div class="col-12  border border-5 col-md-6 bg-dark "  >
+              <h1 class="text-danger ">  Partidas inesqueciveis </h1>
+
+
+
+
+              <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./fisher vs tal.jpg" class="d-block w-100" alt="..."  height="420vh" >
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class=" bg-white ">FISHER V<span class="text-danger">S TAL </span></h5>
+                      <p class="bg-danger">Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./366328.319b5f7a.5000x5000o.e259e72c805a.jpeg" class="d-block w-100"  height="420vh"  alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class=" bg-white ">Lasker V<span class="text-danger">S Rubinstein </span></h5>
+                        <p class="bg-danger">Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./download.jpg" class="d-block w-100" height="420vh" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class=" bg-white ">Kraminik V<span class="text-danger">S Kasparov </span></h5>
+                        <p class="bg-danger">Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <div class="contaier pt-5">
+        <div class="row">
+            <div class="col-md-4 text-danger col-sm-12 "> <h2 class="bg-dark tex">Promessa do xadrez brasil</h2>
+            <img src="./circle-cropped (1).png" alt="" width="50%" class="ms-5">
+            <p class="text-dark">jogar xadrez é uma prática cada vez mais comum em nossa sociedade, cada vez mais jovens e pessoas de diversas idades procuram aprender esse jogo que traz tantos benefícios.
+                O xadrez sendo um jogo de tabuleiro exige uma maior concentração, estimula o desenvolvimento intelectual, mesmo que a criança permaneça parada. Têm objetivos e metas de sustentação voltadas diretamente à educação física, sem perder o foco da atividade física e principalmente o objetivo da estimulação mental. Desse modo, o jogo do xadrez pode ser adaptado ao cotidiano das pessoas.</p>
+            </div>
+            <div class="col-md-4"> 
+                <h2 class="bg-danger text-dark ">Elite do xadrez brasil</h2>
+            <img src="./guy-1.png " alt="" width="50%" class="ms-5">
+            <p>Inicialmente é de fundamental importância que os professores transmitam aos seus alunos os objetivos de trabalhar com o jogo de xadrez no ambiente escolar.
+                A prática do xadrez desenvolve habilidades tendo como destaque: memória, concentração, planejamento e tomadas de decisões.Inicialmente é de fundamental importância que os professores transmitam aos seus alunos os objetivos de trabalhar com o jogo de xadrez no ambiente escolar.
+                A prática do xadrez desenvolve habilidades tendo como destaque: memória, concentração, planejamento e tomadas de decisões.
+</p>
+            </div>
+            <div class="col-md-4"><h2 class="text-danger bg-dark" >Lemda do xadrez brasil</h2>
+            <img src="./guy-2.png" alt="" width="50%" class="ms-5">
+            <p>Inicialmente é de fundamental importância que os professores transmitam aos seus alunos os objetivos de trabalhar com o jogo de xadrez no ambiente escolar.
+                A prática do xadrez desenvolve habilidades tendo como destaque: memória, concentração, planejamento e tomadas de decisões.Inicialmente é de fundamental importância que os professores transmitam aos seus alunos os objetivos de trabalhar com o jogo de xadrez no ambiente escolar.
+                A prática do xadrez desenvolve habilidades tendo como destaque: memória, concentração, planejamento e tomadas de decisões.
+            </p>
+            
+            </div>
+        </div>
+    </div>
+
+<div class="container pt-5 ms-auto">
+    <div class="row ms-auto">
+        <div class="col-12 ms-auto">
+            <h1 class="bg-danger text-center">
+                Planos 
+            </h1>
+        </div>
+    </div>
+</div>
+
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center pt-5">
+        <div class="col">
+          <div class="card mb-4 shadow-sm">
+          <div class="card-header bg-dark">
+            <h4 class="my-0 fw-normal bg-dark text-danger">Free</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>10 AULAS POR MES &#9816;
+            </li>
+              <li>NÃO TE ACESSO A AULAS AOVIVO &#9817;
+            </li>
+              <li>SEM SUPPORT &#9817;
+            </li>
+              <li>SEM AJUDA &#9817;
+            </li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg  btn-danger text-dark">Sign up for free</button>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 shadow-sm ">
+          <div class="card-header bg-dark text-danger">
+            <h4 class="my-0 fw-normal">Pro</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>30 AULAS POR MES &#9814;
+            </li>
+              <li>SUPPORTE DE AULAS &#9815;
+            </li>
+              <li>1 DIA DE TUTORIA &#9816;
+            </li>
+              <li>PUZZLES DIARIOS &#9816;
+            </li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-danger text-dark">Get started</button>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 shadow-sm bg">
+          <div class="card-header bg-dark text-danger">
+            <h4 class="my-0 fw-normal">Enterprise</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>40 AULAS POR MES &#9813;
+            </li>
+              <li>15 GB EM MATERIAL EXCLUSIVO/MES &#9814;
+            </li>
+              <li>3 DIAS DE TUTORIA &#9815;
+            </li>
+              <li> PARTIDA COM GRANDE MESTRE&#9816;
+            </li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg  btn-danger text-dark ">Contact us</button>
+          </div>
+        </div>
+        </div>
+      </div>
+    <div class="container-fluid bg-dark text-danger">
+        <div class="row">
+            <div class="col-4">
+                <ul>
+                     <li>
+                         <a href="https://pt.wikipedia.org/wiki/Xadrez">Xadrez a historia</a>
+                     </li>
+                     <li>
+                        <a href="https://pt.wikipedia.org/wiki/Xadrez#Origens_do_xadrez_moderno_(1450-1850)">Origens do xadrez moderno (1450-1850)</a>
+                    </li>
+                    <li>
+                        <a href="https://pt.wikipedia.org/wiki/Xadrez">Era pós-guerra (1945 até o presente momento)</a>
+                    </li>
+                    <li>
+                        <a href="https://pt.wikipedia.org/wiki/Xadrez">Xadrez a historia</a>
+                    </li>
+                    
+
+                </ul>
+            </div>
+            <div class="col-4">
+                <ul>
+                    <li>
+                        <a href="https://pt.wikipedia.org/wiki/Garry_Kasparov">Garry Kasparov
+                        </a>
+                    </li>
+                    <li>
+                       <a href="https://pt.wikipedia.org/wiki/Vladimir_Kramnik">Vladimir Kramnik
+
+                   </li>
+                   <li>
+                       <a href="https://pt.wikipedia.org/wiki/Bobby_Fischer">Bobby Fischer
+                       </a>
+                   </li>
+                   <li>
+                       <a href="https://pt.wikipedia.org/wiki/Boris_Spassky">Boris Spassky
+                       </a>
+                   </li>
+                   
+
+               </ul>
+            </div>
+            <div class="col-4">         <ul>
+                <li>
+                    <a href="./index-2.html">Home</a>
+                </li>
+                <li>
+                   <a href="https://www.youtube.com/watch?v=AVQL-fLT0Ac">Coache</a>
+               </li>
+               <li>
+                   <a href="https://www.youtube.com/watch?v=MRNZE990cgc&t=520s">Lersson with a grand master)</a>
+               </li>
+               <li>
+                   <a href="https://pt.wikipedia.org/wiki/Xadrez">Contato</a>
+               </li>
+               
+
+           </ul></div>
+        </div>
+    </div>
+       
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  
+      </body>
+    </html>
+   
